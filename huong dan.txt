@@ -1,0 +1,34 @@
+Tạo 1 thư mục tên: data
+
+Tải dữ liệu từ link này: https://drive.google.com/file/d/11kzCboVpLUJto95o_PTwZthjrI_EpWme/view
+
+Giải nén data.rar và đưa toàn bộ dữ liệu vừa tải về vào thư mục data
+
+Cấu trúc thư mục sẽ là:
+data
+    apple_pie
+    baklava
+    ...
+    xoi
+
+==========================
+
+Tạo một thư mục tên: models
+
+Tải model từ link này: https://drive.google.com/file/d/1r35daQzz0DcSioEamB5cAhkm2-MGYghN/view
+
+Đưa file vừa tài vào trong thư mục models
+
+Cấu trúc thư mục sẽ là:
+models
+    train_features.pkl
+
+==========================
+
+Muốn train lại model mở tập tin train-features.ipynb để xem code train
+
+Khi train lại model với ảnh kích thước khác 128x128 thì sửa code trong file app.py
+
+img_width, img_height = 128, 128
+
+
